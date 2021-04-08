@@ -2,6 +2,8 @@ package top.dpdaidai.basis.jdbc.entity;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * @Author chenpantao
  * @Date 4/8/21 5:19 PM
@@ -16,4 +18,5 @@ public class Person {
 
     private Integer age;
 
+    private Date birthday;
 }
