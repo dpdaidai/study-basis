@@ -14,9 +14,21 @@ public class Person {
 
     private Integer id;
 
-    private String name;
+    public String name;
 
-    private Integer age;
+    public Integer age;
 
     private Date birthday;
+
+
+    public Person() {
+
+    }
+
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
+
 }
