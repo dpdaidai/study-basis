@@ -1,4 +1,4 @@
-package top.dpdaidai.basis.lambda;
+package top.dpdaidai.basis.lambda.demo1;
 
 import java.util.*;
 import java.util.stream.Stream;
